@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity">
+    <TextView
+        android:id="@+id/txtCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="AFGHANISTAN"
+        android:gravity="center"
+        android:textColor="#FDD835"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtCountry"
+        android:padding="5dp"
+        android:text="Total Confirmed Cases: 2,936,466 \n(+8,866)"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalActive"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#039BE5"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/TotalConfirm"
+        android:text="Total Active:\n2,936,466 \n(+8,866)"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalDeaths"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/TotalActive"
+        android:gravity="center"
+        android:text="Total Deaths: \n2,936,466 \n(+8,866)"
+        android:textColor="#E53935"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalRecovered"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#1CE625"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/TotalDeaths"
+        android:text="Total Recovered:\n2,936,466 \n(+8,866)"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/LastUpdated"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#8E24AA"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/TotalRecovered"
+        android:text="Last Updated:"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

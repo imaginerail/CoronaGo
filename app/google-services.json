@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393188348610",
+    "firebase_url": "https://kotlin-messenger-d5610.firebaseio.com",
+    "project_id": "kotlin-messenger-d5610",
+    "storage_bucket": "kotlin-messenger-d5610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393188348610:android:99a0b03ddccd368417e15b",
+        "android_client_info": {
+          "package_name": "com.aneeq.coronago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393188348610-5dkiisoven24oma8nb9b04gu5dftes52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjRZWI9j0-ZjPAZKRT7NwO48ugnwAGRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393188348610-5dkiisoven24oma8nb9b04gu5dftes52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

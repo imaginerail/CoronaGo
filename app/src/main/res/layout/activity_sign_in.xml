@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B"
+
+    tools:context=".activity.SignInActivity">
+
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="260dp"
+        android:background="#ffffff"
+        android:hint="   Password"
+        android:textSize="24sp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/etPass"
+        android:background="#ffffff"
+        android:hint="   Email"
+        android:textSize="24sp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etEmail"
+        android:background="#07BDAB"
+        android:text="SignIn"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

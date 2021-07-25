@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/TotalConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Total Confirmed Cases:"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalFConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="52489657"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/TotalConfirm"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/NewConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="[+52489657]"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/TotalFConfirm"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/TotalDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/NewConfirm"
+        android:gravity="center"
+        android:text="Total Deaths:"
+        android:textColor="#E53935"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalFDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="52489657"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#E53935"
+        android:layout_below="@+id/TotalDeaths"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/NewDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="[+52489657]"
+        android:textColor="#E53935"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/TotalFDeaths"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/TotalRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#1CE625"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/NewDeaths"
+        android:text="Total Recovered:"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalFRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="52489657"
+        android:textSize="25sp"
+        android:textColor="#1CE625"
+        android:textStyle="bold"
+        android:layout_below="@+id/TotalRecovered"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
